@@ -26,7 +26,7 @@ def get_model(model_config, **kwargs):
 
 def load_pretrained_model(model: torch.nn.Module, checkpoint_path: str = "", map_location: str = "cpu"):
     
-    checkpoint = torch.load(checkpoint_path, map_location=map_location)
+    checkpoint = torch.load(checkpoint_path, map_location=map_location, weights_only=False)
     model_state_dict = model.state_dict()
     checkpoint_model_state_dict = checkpoint["model_state_dict"]
     if "lstm.weight_ih_l0" in checkpoint_model_state_dict:

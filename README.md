@@ -1,3 +1,11 @@
+# Test Results
+
+![input same person speech audio](target_speech_vad_result.png)
+
+![input different person speech audio](no_target_speech_vad_result.png)
+
+### See [ipynb notebook](inference.ipynb)
+
 # SSL-PVAD
 A repository for code used to produce the results the ICASSP 2024 paper: "SELF-SUPERVISED PRETRAINING FOR ROBUST PERSONALIZED VOICE ACTIVITY DETECTION IN ADVERSE CONDITIONS" 
 
