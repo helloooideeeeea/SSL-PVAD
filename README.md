@@ -1,7 +1,9 @@
 # Test Results
 
+1. Results when the target speaker's speech and the reference speech are from the same person
 ![input same person speech audio](target_speech_vad_result.png)
 
+2. Results when the target speaker and the reference speech are from different people
 ![input different person speech audio](no_target_speech_vad_result.png)
 
 ### See [ipynb notebook](inference.ipynb)
